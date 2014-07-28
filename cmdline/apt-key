@@ -31,9 +31,9 @@ eval $(apt-config shell APT_DIR Dir)
 
 MASTER_KEYRING=''
 eval $(apt-config shell MASTER_KEYRING APT::Key::MasterKeyring)
-ARCHIVE_KEYRING='/usr/share/keyrings/blankon-archive-keyring.gpg'
+ARCHIVE_KEYRING='/usr/share/keyrings/anambas-archive-keyring.gpg'
 eval $(apt-config shell ARCHIVE_KEYRING APT::Key::ArchiveKeyring)
-REMOVED_KEYS='/usr/share/keyrings/blankon-archive-removed-keys.gpg'
+REMOVED_KEYS='/usr/share/keyrings/anambas-archive-removed-keys.gpg'
 eval $(apt-config shell REMOVED_KEYS APT::Key::RemovedKeys)
 ARCHIVE_KEYRING_URI=''
 eval $(apt-config shell ARCHIVE_KEYRING_URI APT::Key::ArchiveKeyringURI)
@@ -150,7 +150,7 @@ net_update() {
 update() {
     if [ ! -f $ARCHIVE_KEYRING ]; then
 	echo >&2 "ERROR: Can't find the archive-keyring"
-	echo >&2 "Is the blankon-archive-keyring package installed?"
+	echo >&2 "Is the anambas-archive-keyring package installed?"
 	exit 1
     fi
     requires_root
