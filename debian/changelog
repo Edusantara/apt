@@ -1,3 +1,10 @@
+apt (0.9.15.3blankon0.9.0.1+edusantara4) anambas; urgency=medium
+
+  * debian/control
+    - Delete blankon-keyring
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Tue, 29 Jul 2014 22:45:52 +0700
+
 apt (0.9.15.3blankon0.9.0.1+edusantara3) anambas; urgency=medium
 
   * change anambas to edusantara-keyring 
