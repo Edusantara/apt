@@ -1,3 +1,9 @@
+apt (0.9.15.3blankon0.9.0.1+edusantara6) anambas; urgency=medium
+
+  * Add vendor/edusantara 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 30 Jul 2014 00:20:47 +0700
+
 apt (0.9.15.3blankon0.9.0.1+edusantara5) anambas; urgency=medium
 
   * debian/control

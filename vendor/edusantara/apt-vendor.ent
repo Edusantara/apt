@@ -1,0 +1,7 @@
+<!-- details about the keys used by the distribution -->
+<!ENTITY keyring-distro "Edusantara">
+<!ENTITY keyring-package "<package>edusantara-keyring</package>">
+<!ENTITY keyring-filename "<filename>/usr/share/keyrings/edusantara-archive-keyring.gpg</filename>">
+<!ENTITY keyring-removed-filename "<filename>/usr/share/keyrings/edusantara-archive-removed-keys.gpg</filename>">
+<!ENTITY keyring-master-filename "/usr/share/keyrings/edusantara-master-keyring.gpg">
+<!ENTITY keyring-uri "http://118.98.166.45/edusantara//project/edusantara-archive-keyring.gpg">

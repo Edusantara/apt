@@ -31,8 +31,8 @@ current:
 	done
 	# if we haven't found a specific, look for a deriving in hardcoded order
 	test -e $@ || \
-		(dpkg-vendor --derives-from edusantara && cp ln -s edusantara $@ ) || \
-		ln -s edusantara $@
+		(dpkg-vendor --derives-from blankon && cp ln -s blankon $@ ) || \
+		ln -s blankon $@
 
 .PHONY: clean veryclean all binary vendor
 

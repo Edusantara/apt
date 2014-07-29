@@ -1,0 +1,10 @@
+ # See sources.list(5) manpage for more information
+ # Remember that CD-ROMs, DVDs and such are managed through the apt-cdrom tool.
+deb http://118.98.166.45/edusantara &edusantara-codename; main restricted
+deb-src http://118.98.166.45/edusantara &edusantara-codename; main restricted
+
+#deb http://118.98.166.45/edusantara &edusantara-codename;-security main restricted
+#deb-src http://118.98.166.45/edusantara &edusantara-codename;-security main restricted
+
+#deb http://118.98.166.45/edusantara &edusantara-codename;-updates main restricted
+#deb-src http://118.98.166.45/edusantara &edusantara-codename;-updates main restricted
