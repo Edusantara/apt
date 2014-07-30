@@ -23,8 +23,8 @@ case "$1" in
 debian-stable-codename)
 	getrawfield 'stable-codename' "${BASEDIR}/../doc/apt-verbatim.ent"
 	;;
-edusantara-codename)
-	getrawfield 'edusantara-codename' "${BASEDIR}/../doc/apt-verbatim.ent"
+blankon-codename)
+	getrawfield 'blankon-codename' "${BASEDIR}/../doc/apt-verbatim.ent"
 	;;
 keyring-package|keyring-filename|keyring-master-filename|keyring-removed-filename|keyring-uri|current-distro-codename)
 	getfield "$1"
